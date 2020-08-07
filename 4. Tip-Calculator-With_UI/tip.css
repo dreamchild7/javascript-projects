@@ -1,0 +1,89 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #3c3c3c;
+        font-family: 'Roboto', sans-serif;
+        border-radius: 1em;
+        overflow: hidden;
+    }
+    
+    .header {
+        position: relative;
+        background-color: #3c3c3c;
+        width: 100%;
+        text-align: center;
+        color: #cccccc;
+        padding: 0.5em 0;
+        text-transform: capitalize;
+    }
+    
+    .tip--form {
+        display: flex;
+        flex-direction: column;
+        padding: 2em;
+    }
+    
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        padding: .5em 0;
+    }
+    
+    .bill-name {
+        padding-bottom: .1em;
+    }
+    
+    #bill,
+    #numberOfPeople,
+    #rateService {
+        height: 2em;
+        border: 1.5px solid #3c3c3c;
+        outline: none;
+    }
+    
+    .tip--form #bill[type='text'] {
+        padding-left: .5em;
+    }
+    
+    .tip--form #numberOfPeople[type='number'] {
+        padding-left: .5em;
+    }
+    
+    #calculator {
+        margin-top: 1em;
+        padding: .5em 0;
+        border: none;
+        background: #5d5d5d;
+        color: #cccccc;
+        cursor: pointer;
+    }
+    
+    #display {
+        margin-top: 1em;
+        padding: .5em 0;
+        text-align: center;
+        font-size: 1.5rem;
+        outline: none;
+        border: none;
+        background: #ffffff;
+    }

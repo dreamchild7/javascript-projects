@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Clock</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="myClock ();">
+    <main class="container">
+        <h1 class="header">My little Time Keeper</h1>
+        <form action="post" class="formClock">
+            <input type="text" id="myTime" name="myTime">
+            <div class="form-group">
+                <label for="dayOfWeek" class="clock">Day of the Week:</label>
+                <input type="text" name="dayOfWeek" id="dayOfWeek">
+            </div>
+            <div class="form-group">
+                <label for="dateOfMonth" class="clock">Day of the Month:</label>
+                <input type="text" name="dateOfMonth" id="dateOfMonth">
+            </div>
+            <div class="form-group">
+                <label for="month" class="clock">Month:</label>
+                <input type="text" name="month" id="month">
+            </div>
+            <div class="form-group">
+                <label for="year" class="clock">Year:</label>
+                <input type="text" name="year" id="year">
+            </div>
+        </form>
+    </main>
+</body>
+<script src="./index.js"></script>
+
+</html>

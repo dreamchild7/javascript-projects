@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    background: white;
+    opacity: 50%;
+    text-align: center;
+}
+
+#btn {
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+span {
+    display: block;
+    font-size: 1rem;
+    padding: 1rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}

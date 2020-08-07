@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="tip.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1 class="header">tip Calculator</h1>
+        <form action="" class="tip--form">
+            <div class="form-group">
+                <label class="bill-name" for="bill">Enter Bill:</label>
+                <input type="text" id="bill" name="bill" placeholder="Bill in Naira">
+            </div>
+            <div class="form-group">
+                <label class="rateService" for="rateService">Rate Service:</label>
+                <select name="rateService" id="rateService">
+                    <option value="30">30% Exceptional</option>
+                    <option value="25">25% Very Good</option>
+                    <option value="20">20% Good</option>
+                    <option value="15">15% Okay</option>
+                    <option value="10">10% Unsatisfactory</option>
+                    <option value="5">5% Bad</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label class="bill-name" for="numberOfPeople">Number of People to Split the Bill:</label>
+                <input type="number" id="numberOfPeople" name="numberOfPeople" placeholder="Number Of People">
+            </div>
+            <button type="button" id="calculator" onclick="calculateTip();">Calculate Tip</button>
+            <!--Use Form input to display Result-->
+            <input type="text" id="display" name="display">
+
+        </form>
+    </main>
+</body>
+<script src="./tip.js"></script>
+
+</html>
